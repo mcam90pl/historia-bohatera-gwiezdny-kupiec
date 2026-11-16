@@ -2,7 +2,7 @@
 
 Gra przeglądarkowa w jednym pliku (`index.html`), bez instalacji i bez konta. Działa w nowoczesnej przeglądarce na komputerze; pierwsze wczytanie może potrwać, bo plik ma około 27 MB.
 
-Wersja: 9.7.1
+Wersja: 9.7.2
 
 ## Jak grać
 
@@ -13,14 +13,15 @@ Wersja: 9.7.1
 
 ## Hall of Fame
 
-Wyniki są podzielone na kategorie: Historia Bohatera oraz osobna kategoria dla każdej kampanii.
+Rejestr pilotów programu VR M.O.N.I.T. Wyniki są podzielone na kategorie: Historia Bohatera oraz osobna kategoria dla każdej kampanii.
 
-- Historia Bohatera: po zakończeniu historii na ekranie końcowym jest przycisk "Dodaj wynik do Hall of Fame". Wpisujesz imię lub pseudonim (do 24 znaków). Wynik to majątek końcowy: kredyty minus dług plus katalogowa wartość statku.
-- Kampanie: wynik zapisuje się i wysyła automatycznie po zakończeniu kampanii (suma majątków pilotów). W kampanii online wynik wysyła gospodarz.
-- Wynik trafia do Twojej przeglądarki oraz na wspólną listę publiczną. Na liście publicznej jedna osoba ma jeden wynik w każdej kategorii; nowy wynik zastępuje poprzedni.
-- Lista publiczna działa w grze otwartej z tej strony. W kopii pliku pobranej na dysk lista publiczna jest niedostępna, a wyniki zostają w przeglądarce.
-- Wyniki z tej przeglądarki można pobrać do pliku i wczytać w innej.
+- Historia Bohatera: po zakończeniu historii na ekranie końcowym jest przycisk "Dodaj wynik do Hall of Fame". Wpisujesz imię lub pseudonim (do 24 znaków).
+- Kampanie: wynik wysyła się automatycznie po zakończeniu kampanii (suma majątków pilotów). W kampanii online wynik wysyła gospodarz.
+- Wynik to majątek końcowy: kredyty minus dług plus katalogowa wartość statku, załogi, wyposażenia, surowców, paliwa i zagrywek, minus 500 za każdy punkt uszkodzenia kadłuba.
+- Na liście publicznej jedna osoba ma jeden wynik w każdej kategorii; nowy wynik zastępuje poprzedni.
+- Trzy najlepsze wyniki stoją na podium. Odznaki pokazują, jak pilot zakończył historię.
+- Lista publiczna działa w grze otwartej z tej strony. W kopii pliku pobranej na dysk wynik zostaje tylko w przeglądarce.
 
 ## Dane osobowe
 
-Gra nie zna adresu IP gracza i go nie wysyła. Serwer listy publicznej, żeby rozpoznać, że kolejny wynik pochodzi od tej samej osoby, zapisuje wyłącznie jednokierunkowy skrót adresu IP (HMAC). Sam adres IP nie jest zapisywany, a skrót nie jest publikowany ani pokazywany w grze. Na liście publicznej widać tylko pseudonim, wynik, statek, zakończenie i datę.
+Gra nie zna adresu IP gracza i go nie wysyła. Serwer listy publicznej, żeby rozpoznać, że kolejny wynik pochodzi od tej samej osoby, zapisuje wyłącznie jednokierunkowy skrót adresu IP (HMAC). Sam adres IP nie jest zapisywany, a skrót nie jest publikowany ani pokazywany w grze. Na liście publicznej widać tylko pseudonim, wynik, statek i odznaki.
