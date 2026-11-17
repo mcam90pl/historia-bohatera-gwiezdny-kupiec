@@ -2,7 +2,7 @@
 
 Gra przeglądarkowa w jednym pliku (`index.html`), bez instalacji i bez konta. Działa w nowoczesnej przeglądarce na komputerze; pierwsze wczytanie może potrwać, bo plik ma około 27 MB.
 
-Wersja: 9.7.4
+Wersja: 9.7.5
 
 ## Jak grać
 
