@@ -2,7 +2,7 @@
 
 Gra przeglądarkowa w jednym pliku (`index.html`), bez instalacji i bez konta. Działa w nowoczesnej przeglądarce na komputerze; pierwsze wczytanie może potrwać, bo plik ma około 27 MB.
 
-Wersja: 9.7.2
+Wersja: 9.7.3
 
 ## Jak grać
 
@@ -19,7 +19,8 @@ Rejestr pilotów programu VR M.O.N.I.T. Wyniki są podzielone na kategorie: Hist
 - Kampanie: wynik wysyła się automatycznie po zakończeniu kampanii (suma majątków pilotów). W kampanii online wynik wysyła gospodarz.
 - Wynik to majątek końcowy: kredyty minus dług plus katalogowa wartość statku, załogi, wyposażenia, surowców, paliwa i zagrywek, minus 500 za każdy punkt uszkodzenia kadłuba.
 - Na liście publicznej jedna osoba ma jeden wynik w każdej kategorii; nowy wynik zastępuje poprzedni.
-- Trzy najlepsze wyniki stoją na podium. Odznaki pokazują, jak pilot zakończył historię.
+- Trzy najlepsze wyniki stoją na podium. Odznaki pokazują, jak pilot przeszedł historię albo kampanię; część z nich jest ukryta i odkrywa się dopiero po zdobyciu.
+- Kampania „Zgaszony Szlak” zapisuje wynik po każdym ukończonym rozdziale (pierwszy raz po rozdziale 2); kolejny rozdział nadpisuje poprzedni wynik.
 - Lista publiczna działa w grze otwartej z tej strony. W kopii pliku pobranej na dysk wynik zostaje tylko w przeglądarce.
 
 ## Dane osobowe
